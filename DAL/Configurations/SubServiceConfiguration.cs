@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Backend_Architecture.DAL.Configurations
 {
-    public class SubServiceConfiguration : IEntityTypeConfiguration<SubServices>
+    public class SubServiceConfiguration : IEntityTypeConfiguration<SubService>
     {
-        public void Configure(EntityTypeBuilder<SubServices> builder)
+        public void Configure(EntityTypeBuilder<SubService> builder)
         {
             builder.Property(s => s.Title)
                 .IsRequired()

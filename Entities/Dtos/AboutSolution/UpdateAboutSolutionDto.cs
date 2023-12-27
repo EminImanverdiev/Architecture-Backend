@@ -1,6 +1,6 @@
 ﻿namespace Backend_Architecture.Entities.Dtos.AboutSolution
 {
-    public class CreateAboutSolutionDto
+    public class UpdateAboutSolutionDto
     {
         public int Count { get; set; }
         public string CountTitle { get; set; }

@@ -17,6 +17,8 @@ namespace Backend_Architecture.DAL.EFCore
         public DbSet<AboutSolution> AboutSolutions { get; set; }
         public DbSet<Fag> Fags { get; set; }    
         public DbSet<Service> Services { get; set; }   
-        public DbSet<SubServices> SubServices { get; set; }
+        public DbSet<SubService> SubServices { get; set; }
+
+  
     }
 }
